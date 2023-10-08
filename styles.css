@@ -1,0 +1,32 @@
+
+
+.main_header {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: azure;
+    font-style: oblique;
+}
+
+.header {
+    color: rgb(212, 255, 0);
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+    color: blueviolet;
+}
+
+li:active {
+    color: cadetblue;
+}
+
+ul > li {
+    display: inline;
+    padding: 25px;
+}
